@@ -1,5 +1,12 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
+// let status = 'paid';
+
+// console.log(
+//   `inline-flex items-center rounded-full px-2 py-1 text-xs
+//    ${status === 'pending' && 'bg-gray-100 text-gray-500'}
+//    ${status === 'paid' && 'bg-green-500 text-white'} `,
+// );
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
